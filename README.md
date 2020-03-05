@@ -2,9 +2,9 @@
 
 Register a global `<GeoPattern />` component for VuePress.
 
-This component generate a beautiful random  geometric pattern & random color images from a string you given.
+This component generate a beautiful random geometric pattern & random color background images from a string you given.
 
-> This plugin is a adaptor of [geopattern](https://github.com/btmills/geopattern)
+> This plugin is a adapter of [geopattern](https://github.com/btmills/geopattern)
 
 ## See Demo on CodeSandbox
 
@@ -43,11 +43,11 @@ module.exports = {
 > With the custom slot, in the case, you can let the slot element control the pattern's height
 
 ```vue
-<GeoPattern>
-  <div class="posts-header">
+<geo-pattern>
+  <div style="padding: 64px; font-size: 2rem; color: white;">
     All Posts
   </div>
-</GeoPattern>
+</geo-pattern>
 ```
 
 ## API
