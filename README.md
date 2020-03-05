@@ -8,7 +8,7 @@ This component generate a beautiful random  geometric pattern & random color ima
 
 ## See Demo on CodeSandbox
 
-[![Edit vuepress-plugin-geopattern](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/fast-pine-42vz4?fontsize=14&hidenavigation=1&theme=dark)
+[![Edit vuepress-plugin-geopattern](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/musing-surf-twidv?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Installation
 

@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-geopattern",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate beautiful random geometric pattern background images.",
   "main": "index.js",
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/xiaoluoboding/vuepress-plugin-geopattern/issues"
   },
-  "homepage": "https://github.com/xiaoluoboding/vuepress-plugin-geopattern#readme"
+  "homepage": "https://github.com/xiaoluoboding/vuepress-plugin-geopattern#readme",
+  "dependencies": {
+    "geopattern": "^1.2.3"
+  }
 }
