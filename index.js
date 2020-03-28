@@ -1,8 +1,10 @@
 const path = require('path')
 
 module.exports = {
+  name: 'geopattern',
+
   enhanceAppFiles: [
-    path.resolve(__dirname, 'enhanceAppFile.js')
+    path.resolve(__dirname, 'enhanceApp.js')
   ],
 
   chainWebpack (config, isServer) {

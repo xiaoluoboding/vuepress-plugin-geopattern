@@ -7,19 +7,19 @@
 <script>
 import gp from 'geopattern'
 
+const PLUGIN_NAME = 'vuepress-plugin-geopattern'
+
 export default {
   name: 'GeoPattern',
   props: {
+    // Will be used as the seed for generation
+    seed: { type: String, default: () => PLUGIN_NAME + new Date().toString() },
     // Given array elements is hexadecimal color value [0-F]
     colorHexs: { type: Array, default: () => ['3', '9', 'C'] },
     // Controls the relative background color of the generated image.
     baseColor: { type: String, default: '#933c3c' }
   },
   computed: {
-    // Will be used as the seed for generation
-    seed () {
-      return this.$page && this.$page.title + new Date().toString()
-    },
     style () {
       return {
         'background-image': this.getPattern()
